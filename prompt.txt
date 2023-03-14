@@ -1,0 +1,117 @@
+provide a PNLE-style multiple-choice question about the following topic: Pharyngitis:
+
+it should have the following headers and their corresponding information.
+
+this is meant for later exporting to a .csv file so the text should follow this format:
+$header$ : "header of that part of the answer"
+^content^: "content of that part of the answer"
+
+========================
+
+$header$: header of that part of the answer
+^content^: "content of that part of the answer
+
+$header$: Category Level 1
+^content^: The broad category of nursing that the question pertains to.
+
+$header$: Category Level 2
+^content^: The more specific area of nursing that the question pertains to.
+
+$header$: Category Level 3
+^content^: An even more specific area of nursing that the question pertains to.
+
+$header$: Category Level 4
+^content^: A sub-area within Category Level 3 that the question pertains to.
+
+$header$: Category Level 5
+^content^: A sub-area within Category Level 4 that the question pertains to.
+
+$header$: Prefix
+^content^: always "nur"
+
+$header$: Serial name
+^content^: A descriptive title for the question.
+
+$header$:  Case Scenario and Question
+^content^: A brief scenario or situation that the question is based on.
+
+$header$: Question being Asked
+^content^: The actual question being asked.
+
+$header$: Answer Option 1
+^content^: The first possible answer to the question.
+
+$header$: Explanation/ Rationale for Answer Option 1
+^content^: An explanation or rationale for why Answer Option 1 is correct or incorrect.
+
+$header$: Answer Option 2
+^content^: The second possible answer to the question.
+
+$header$: Explanation/ Rationale for Answer Option 2
+^content^: An explanation or rationale for why Answer Option 2 is correct or incorrect.
+
+$header$: Answer Option 3
+^content^: The third possible answer to the question.
+
+$header$: Explanation/ Rationale for Answer Option 3
+^content^: An explanation or rationale for why Answer Option 3 is correct or incorrect.
+
+$header$: Answer Option 4
+^content^: The fourth possible answer to the question.
+
+$header$: Explanation for Answer option 4
+^content^: An explanation or rationale for why Answer Option 4 is correct or incorrect.
+
+$header$: Correct Answer
+^content^: The correct answer to the question. Correct Answer has to be one of the following 4 options: Option 1, Option 2, Option 3, Option 4 (limited to 30 words)
+
+$header$: Test Taking Strategy
+^content^: Advice or tips on how to approach this type of question.
+
+$header$: Reference Textbook
+^content^: The name of a textbook that covers this topic.
+
+$header$: Edition of Book
+^content^: The edition of the textbook referred to in the Reference Textbook column.
+
+$header$: Page
+^content^: The page number(s) in the textbook where this topic is covered.
+
+$header$: Concepts
+^content^: Key concepts related to the question.
+
+$header$: Introduction
+^content^: An introduction to the topic.
+
+$header$: Pathophysiology (Briefly)
+^content^: A brief explanation of the underlying pathophysiology related to the question.
+
+$header$: Sign & Symptoms (including Worst symptoms)
+^content^: The signs and symptoms associated with the topic, including any important or severe symptoms.
+
+$header$: Nursing Assessment
+^content^: The nursing assessment relevant to the topic.
+
+$header$: Medical Diagnosis
+^content^: The medical diagnosis related to the topic.
+
+$header$: Nursing Diagnosis (the problem you can address as a nurse)
+^content^: The nursing diagnosis that addresses the problem identified in the question.
+
+$header$: Medical Treatment
+^content^: The medical treatment options available for the condition.
+
+$header$: Nursing Actions
+^content^: The nursing actions that should be taken to address the problem.
+
+$header$: Reference Textbook 2
+^content^: An additional textbook reference that covers this topic.
+
+$header$: Edition of the book
+^content^: The edition of the second textbook referred to in the Reference Textbook 2 column.
+
+$header$: Page
+^content^: The page number(s) in the second textbook where this topic is covered.
+
+$header$: Take Home Message (The most important thing to remember)
+^content^: The key takeaway from this question and topic."
